@@ -18,7 +18,7 @@ export default function ContactSection() {
           <div className="lg:col-span-6 space-y-3">
             <div className="flex items-center gap-2 text-blue-600 font-bold text-xs uppercase tracking-wider bg-blue-50 px-3.5 py-1.5 rounded-full w-max">
               <HelpCircle className="w-3.5 h-3.5" />
-              Contact Premium Drop Taxi
+              Contact Chennai - Pondi Taxi
             </div>
              <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 tracking-tight ">
               Book Your One Way Taxi <br />
@@ -27,7 +27,7 @@ export default function ContactSection() {
             
             <p className="text-gray-600 text-sm md:text-base font-medium  max-w-xl">
               Get instant taxi booking support for one way and intercity travel across Tamil Nadu and South India. 
-              Contact Premium Drop Taxi for fare details, route enquiry, and quick booking assistance.
+              Contact Chennai - Pondi Taxi for fare details, route enquiry, and quick booking assistance.
             </p>
 
             <div className="pt-4">
@@ -40,7 +40,7 @@ export default function ContactSection() {
                 
                 {/* Call Card */}
                 <a 
-                  href="tel:+916369424744" 
+                  href="tel:+918825555154" 
                   className="p-5 border border-gray-100 hover:bg-blue-50 rounded-2xl flex items-start gap-4 hover:border-blue-500 bg-white  transition-all group shadow-xs"
                 >
                   <div className="p-3 bg-blue-50 rounded-xl text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
@@ -49,14 +49,14 @@ export default function ContactSection() {
                   <div>
                     <h4 className="text-xs font-semibold text-gray-400 uppercase ">Call Support</h4>
                     <p className="text-base font-extrabold text-gray-900 mt-0.5 group-hover:text-blue-600 transition-colors">
-                      +91 6369424744
+                      +91 8825555154
                     </p>
                   </div>
                 </a>
 
                 {/* WhatsApp Card */}
                 <a 
-                  href="https://wa.me/916369424744" 
+                  href="https://wa.me/918825555154" 
                   target="_blank" 
                   rel="noreferrer" 
                   className="p-5 border border-gray-100 hover:bg-green-50 rounded-2xl flex items-start gap-4 hover:border-[#25d366] bg-white transition-all group shadow-xs"
@@ -74,7 +74,7 @@ export default function ContactSection() {
 
                 {/* Email Card */}
                 <a 
-                  href="mailto:premiumdroptaxi2026@gmail.com" 
+                  href="mailto:a.karthikmmv@gmail.com" 
                   className="p-5 border border-gray-100 hover:bg-orange-50 rounded-2xl flex items-start gap-4 hover:border-orange-500 bg-white transition-all group shadow-xs sm:col-span-2"
                 >
                   <div className="p-3 bg-orange-50 rounded-xl text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors">
@@ -83,7 +83,7 @@ export default function ContactSection() {
                   <div className="min-w-0 flex-1">
                     <h4 className="text-xs font-semibold text-gray-400 uppercase ">Email Support</h4>
                     <p className="text-sm md:text-base font-extrabold text-gray-900 mt-0.5 group-hover:text-orange-600 transition-colors truncate">
-                      premiumdroptaxi2026@gmail.com
+                      a.karthikmmv@gmail.com
                     </p>
                   </div>
                 </a>
@@ -129,7 +129,7 @@ export default function ContactSection() {
               {/* ACTION CALL DRIVERS INTERACTION */}
               <div className="space-y-3.5 w-full">
                 <a
-                  href="https://wa.me/916369424744"
+                  href="https://wa.me/918825555154"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center gap-3 bg-green-600 hover:bg-[#20ba5a] text-white font-extrabold py-4 px-6 rounded-2xl text-sm uppercase  shadow-lg transition text-center"
@@ -139,7 +139,7 @@ export default function ContactSection() {
                 </a>
 
                 <a
-                  href="tel:+916369424744"
+                  href="tel:+918825555154"
                   className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-extrabold py-4 px-6 rounded-2xl text-sm uppercase  shadow-lg transition text-center"
                 >
                   <Phone className="w-4 h-4 fill-current" />
