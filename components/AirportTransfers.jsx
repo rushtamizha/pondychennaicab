@@ -22,22 +22,22 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const TRANSFER_VEHICLES = [
-  {
-    id: 'sedan',
-    name: 'Swift Dzire / Sedan',
-    tag: 'MOST BOOKED',
-    tagColor: 'bg-amber-500 text-white',
-    capacity: '4+1',
-    one: '15/KM',
-    round: '13/KM',
-    toll: 'Optional',
-    luggage: 'Standard',
-    img: '/CardCars/swift-dzire-one-way-taxi-pondicherry-to-chennai.webp',
-    alt: 'Maruti Swift Dzire sedan taxi for Pondicherry to Chennai airport drop transfers'
-  },
+  // {
+  //   id: 'sedan',
+  //   name: 'Swift Dzire / Sedan',
+  //   tag: 'MOST BOOKED',
+  //   tagColor: 'bg-amber-500 text-white',
+  //   capacity: '4+1',
+  //   one: '15/KM',
+  //   round: '13/KM',
+  //   toll: 'Optional',
+  //   luggage: 'Standard',
+  //   img: '/CardCars/swift-dzire-one-way-taxi-pondicherry-to-chennai.webp',
+  //   alt: 'Maruti Swift Dzire sedan taxi for Pondicherry to Chennai airport drop transfers'
+  // },
   {
     id: 'etios',
-    name: 'Toyota Etios ',
+    name: 'Toyota Etios / Sedan ',
     tag: null,
     capacity: '4+1',
     one: '15/KM',
