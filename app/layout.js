@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { GoogleAnalytics } from '@next/third-parties/google';
+import ContactButton from "@/components/WhatsAppButton";
 const SITE_URL = "https://www.chennaitopondicherryonewaytaxi.com/";
 
 export const metadata = {
@@ -145,6 +146,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
+        <ContactButton/>
         <Footer />
         <GoogleAnalytics gaId="G-C8B26BCX6P" />
       </body>
