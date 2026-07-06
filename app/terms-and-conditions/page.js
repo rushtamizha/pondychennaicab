@@ -92,7 +92,7 @@ export default function TermsAndConditions() {
                 Welcome to Chennai - Pondi Taxi. By accessing our platform, utilizing our online booking tools, or using our phone/WhatsApp booking channels, you agree to comply with and be bound by the following terms and conditions.
               </p>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                These terms govern all intercity, one-way, round-trip, and airport transfer transit services managed or arranged by Chennai - Pondi Taxi across Tamil Nadu, Karnataka, Kerala, and surrounding regions.
+                These terms govern all intercity, one-way, round-trip, and airport transfer transit services managed or arranged by Chennai - Pondi Taxi across Tamil Nadu and Pondicherry.
               </p>
             </section>
 

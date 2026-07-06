@@ -171,7 +171,7 @@ export default function TaxiBookingHero() {
           <p className="text-white md:text-lg max-w-xl">
             Book reliable one way, round trip and airport taxi services across{" "}
             <span className="font-bold text-blue-500">
-              Tamil Nadu, Kerala & Karnataka
+              Tamil Nadu & Pondicherry
             </span>{" "}
             with professional drivers, transparent pricing and 24/7 booking
             support.

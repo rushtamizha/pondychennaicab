@@ -210,11 +210,11 @@ import {
 
 const TOP_ROUTES = [
   { name: 'Chennai One Way Taxi', link: '#' },
-  { name: 'Bangalore One Way Taxi', link: '#' },
-  { name: 'Coimbatore One Way Taxi', link: '#' },
-  { name: 'Madurai One Way Taxi', link: '#' },
+  // { name: 'Bangalore One Way Taxi', link: '#' },
+  // { name: 'Coimbatore One Way Taxi', link: '#' },
+  // { name: 'Madurai One Way Taxi', link: '#' },
   { name: 'Pondicherry One Way Taxi', link: '#' },
-  { name: 'Trichy One Way Taxi', link: '#' },
+  // { name: 'Trichy One Way Taxi', link: '#' },
 ];
 
 const SERVICES = [
@@ -262,7 +262,7 @@ export default function Footer() {
             </Link>
             
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-              South India's trusted intercity drop taxi service offering budget-friendly, professional one-way and round-trip experiences across Tamil Nadu, Karnataka, and Kerala.
+              South India's trusted intercity drop taxi service offering budget-friendly, professional one-way and round-trip experiences across Tamil Nadu and Pondicherry.
             </p>
 
             <div className="flex flex-col gap-2.5 pt-2 text-sm text-gray-300 font-medium">

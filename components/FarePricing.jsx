@@ -124,8 +124,7 @@ export default function FarePricing() {
             One Way & Intercity Pricing
           </h2>
           <p className="text-gray-500 text-sm md:text-base font-medium leading-relaxed">
-            Serving all cities across Tamil Nadu including Chennai, Coimbatore,
-            Madurai, Salem, and Trichy. Check transparent rates for your next
+            Serving all cities across Tamil Nadu including Chennai and Pondicherry. Check transparent rates for your next
             trip.
           </p>
         </div>
@@ -338,8 +337,7 @@ export default function FarePricing() {
 
           <p className="text-gray-300 text-sm md:text-base font-medium max-w-3xl mx-auto mb-8 leading-relaxed">
             Chennai - Pondi Taxi offers reliable one way taxi and outstation cab
-            services across Tamil Nadu and South India — including Chennai,
-            Coimbatore, Madurai, Salem, and Trichy.
+            services across Tamil Nadu and South India — including Chennai and Pondicherry.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

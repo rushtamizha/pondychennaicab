@@ -23,8 +23,6 @@ export const metadata = {
     "drop taxi Bala Pondicherry",
     "Innova Crysta rental Pondicherry",
     "outstation taxi Tamil Nadu",
-    "Pondicherry to Bangalore taxi",
-    "Pondicherry to Kerala cab",
   ],
   authors: [{ name: "Chennai - Pondi Taxi Bala" }],
   category: "Transportation",
@@ -48,7 +46,7 @@ export const metadata = {
     url: SITE_URL,
     title: "Pondicherry Taxi Service | One Way & Round Trip Drop Taxi Bala",
     description:
-      "South India's trusted intercity taxi service. Flat-rate one-way and round-trip fares across Tamil Nadu, Karnataka & Kerala with clean, well-maintained cars.",
+      "South India's trusted intercity taxi service. Flat-rate one-way and round-trip fares across Tamil Nadu & Pondicherry with clean, well-maintained cars.",
     siteName: "Chennai - Pondi Taxi Bala",
     images: [
       {
@@ -109,8 +107,6 @@ export default function RootLayout({ children }) {
       { "@type": "AdministrativeArea", name: "Pondicherry" },
       { "@type": "AdministrativeArea", name: "Tamil Nadu" },
       { "@type": "AdministrativeArea", name: "Chennai" },
-      { "@type": "AdministrativeArea", name: "Karnataka" },
-      { "@type": "AdministrativeArea", name: "Kerala" },
     ],
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",

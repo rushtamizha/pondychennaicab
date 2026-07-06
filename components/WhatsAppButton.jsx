@@ -3,7 +3,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageCircle, Phone } from 'lucide-react';
-
+import { BsWhatsapp } from 'react-icons/bs';
+BsWhatsapp
 const ContactButton = () => {
   const phoneNumber = "918825555154";
   const whatsappMessage = "Hi! I'd like to inquire about your services.";
@@ -11,7 +12,7 @@ const ContactButton = () => {
   const actions = [
     {
       id: 'whatsapp',
-      icon: <MessageCircle size={24} fill="currentColor" />,
+      icon: <BsWhatsapp size={24} fill="currentColor" />,
       color: 'bg-[#25D366]',
       label: 'WhatsApp',
       onClick: () => window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`, '_blank'),
@@ -19,7 +20,7 @@ const ContactButton = () => {
     {
       id: 'call',
       icon: <Phone size={24} fill="currentColor" />,
-      color: 'bg-blue-500',
+      color: 'bg-red-500',
       label: 'Call Us',
       onClick: () => window.open(`tel:+${phoneNumber}`, '_self'),
     }
@@ -50,7 +51,7 @@ const ContactButton = () => {
             onClick={action.onClick}
             className={`${action.color} text-white w-14 h-14 flex items-center justify-center rounded-full shadow-xl border-2 border-white/20`}
           >
-            {action.icon}
+           {action.icon}
           </motion.button>
         </div>
       ))}
